@@ -55,7 +55,7 @@ const Blog = ({ blog, bookmarksHandle, spenttimeHandle }) => {
         <div className="mt-4">
           <button
             className="text-blue-600 border-b-2 font-semibold"
-            onClick={() => spenttimeHandle(blog.readingTime)}
+            onClick={() => spenttimeHandle(blog)}
           >
             Mark as read
           </button>

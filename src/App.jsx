@@ -13,10 +13,14 @@ const App = () => {
     setBookmarks(newBookmarks);
   };
 
-  const spenttimeHandle = (time) => {
-    const newspentTime = spenttimes + time;
+  const spenttimeHandle = (blog) => {
+    const newspentTime = spenttimes + blog.readingTime;
 
     setSpenttimes(newspentTime);
+
+    // remove
+    const newBookmark = bookmarks.filter((bookmark) => blog.id !== bookmark.id);
+    setBookmarks(newBookmark);
   };
 
   return (
