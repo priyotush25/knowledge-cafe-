@@ -1,7 +1,16 @@
 import PropTypes from "prop-types";
+import { useState } from "react";
 import { CiBookmark } from "react-icons/ci";
+import { FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog, bookmarksHandle }) => {
+const Blog = ({ blog, bookmarksHandle, spenttimeHandle }) => {
+  const [isButton, setIsbutton] = useState(false);
+
+  const clikHandle = () => {
+    bookmarksHandle(blog);
+    setIsbutton(!isButton);
+  };
+
   return (
     <>
       <div className="mb-10 border-b-2 border-gray-200 pb-9">
@@ -28,8 +37,8 @@ const Blog = ({ blog, bookmarksHandle }) => {
           </div>
           <div className="text-gray-500 font-medium flex gap-1">
             <p>{blog.readingTime}</p>
-            <button className="text-2xl" onClick={() => bookmarksHandle(blog)}>
-              <CiBookmark />
+            <button className="text-2xl" onClick={clikHandle}>
+              {isButton ? <FaBookmark /> : <CiBookmark />}
             </button>
           </div>
         </div>
@@ -42,6 +51,14 @@ const Blog = ({ blog, bookmarksHandle }) => {
           {blog.hashtags.map((hashtag, index) => (
             <p key={index}>{hashtag}</p>
           ))}
+        </div>
+        <div className="mt-4">
+          <button
+            className="text-blue-600 border-b-2 font-semibold"
+            onClick={() => spenttimeHandle(blog.readingTime)}
+          >
+            Mark as read
+          </button>
         </div>
       </div>
     </>
