@@ -1,7 +1,15 @@
+import Blogs from "./component/Blog/Blogs";
+import Bookmarks from "./component/Bookmarks/Bookmarks";
+import Header from "./component/Header/Header";
+
 const App = () => {
   return (
     <>
-      <h1 className="text-4xl font-bold text-green-500">Hello World!</h1>
+      <Header />
+      <main className="container mx-auto flex items-center mt-20">
+        <Blogs />
+        <Bookmarks />
+      </main>
     </>
   );
 };

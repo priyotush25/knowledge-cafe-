@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding React useEffect Hook in Depth for Beginners and Advanced Developers",
+    "coverImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600",
+    "author": {
+      "name": "Sarah Lee",
+      "image": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=200"
+    },
+    "postDate": "2025-09-15",
+    "readingTime": "7 min read",
+    "hashtags": ["#React", "#JavaScript", "#WebDev"]
+  },
+  {
+    "id": 2,
+    "title": "10 Best Practices for Writing Clean and Maintainable JavaScript Code",
+    "coverImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600",
+    "author": {
+      "name": "Michael Brown",
+      "image": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=200"
+    },
+    "postDate": "2025-09-12",
+    "readingTime": "5 min read",
+    "hashtags": ["#JavaScript", "#CleanCode", "#Programming"]
+  },
+  {
+    "id": 3,
+    "title": "Exploring CSS Grid vs Flexbox: Which Layout System Should You Use?",
+    "coverImage": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=600",
+    "author": {
+      "name": "Emily Carter",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200"
+    },
+    "postDate": "2025-09-10",
+    "readingTime": "6 min read",
+    "hashtags": ["#CSS", "#Frontend", "#ResponsiveDesign"]
+  },
+  {
+    "id": 4,
+    "title": "A Comprehensive Guide to Node.js for Beginners with Real-Life Examples",
+    "coverImage": "https://images.unsplash.com/photo-1581090700227-4c4f50b4e6dd?w=600",
+    "author": {
+      "name": "David Johnson",
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200"
+    },
+    "postDate": "2025-09-08",
+    "readingTime": "9 min read",
+    "hashtags": ["#Nodejs", "#Backend", "#JavaScript"]
+  },
+  {
+    "id": 5,
+    "title": "How to Build Responsive Websites with Modern HTML5 and CSS3",
+    "coverImage": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600",
+    "author": {
+      "name": "Sophia Wilson",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200"
+    },
+    "postDate": "2025-09-05",
+    "readingTime": "8 min read",
+    "hashtags": ["#HTML5", "#CSS3", "#ResponsiveWeb"]
+  },
+  {
+    "id": 6,
+    "title": "The Ultimate Guide to State Management in React: Context API vs Redux",
+    "coverImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600",
+    "author": {
+      "name": "James Miller",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200"
+    },
+    "postDate": "2025-09-02",
+    "readingTime": "10 min read",
+    "hashtags": ["#React", "#Redux", "#StateManagement"]
+  },
+  {
+    "id": 7,
+    "title": "Top 20 VS Code Extensions Every Developer Must Have in 2025",
+    "coverImage": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600",
+    "author": {
+      "name": "Olivia Martinez",
+      "image": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200"
+    },
+    "postDate": "2025-08-28",
+    "readingTime": "4 min read",
+    "hashtags": ["#VSCode", "#Productivity", "#DevTools"]
+  },
+  {
+    "id": 8,
+    "title": "Why TypeScript is Taking Over JavaScript: Benefits and Use Cases",
+    "coverImage": "https://images.unsplash.com/photo-1581090700227-4c4f50b4e6dd?w=600",
+    "author": {
+      "name": "Daniel Garcia",
+      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=200"
+    },
+    "postDate": "2025-08-25",
+    "readingTime": "7 min read",
+    "hashtags": ["#TypeScript", "#JavaScript", "#ProgrammingTips"]
+  },
+  {
+    "id": 9,
+    "title": "Mastering Git and GitHub: From Basics to Advanced Workflow",
+    "coverImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600",
+    "author": {
+      "name": "Isabella Lopez",
+      "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200"
+    },
+    "postDate": "2025-08-20",
+    "readingTime": "6 min read",
+    "hashtags": ["#Git", "#GitHub", "#VersionControl"]
+  },
+  {
+    "id": 10,
+    "title": "Complete Roadmap to Becoming a Full Stack Developer in 2025",
+    "coverImage": "https://images.unsplash.com/photo-1537432376769-00a9f1e86d0d?w=600",
+    "author": {
+      "name": "William Anderson",
+      "image": "https://images.unsplash.com/photo-1546456073-6712f79251bb?w=200"
+    },
+    "postDate": "2025-08-15",
+    "readingTime": "12 min read",
+    "hashtags": ["#FullStack", "#Career", "#WebDevelopment"]
+  }
+]
