@@ -12,7 +12,7 @@ const Blogs = ({ bookmarksHandle, spenttimeHandle }) => {
 
   return (
     <>
-      <div className="w-2/3">
+      <div className="w-full md:w-2/3">
         {blogs.map((blog) => (
           <Blog
             blog={blog}

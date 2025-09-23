@@ -26,7 +26,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="container mx-auto flex items-start mt-10 gap-6">
+      <main className="container mx-auto p-4 flex md:flex-row flex-col items-start mt-10 gap-6">
         <Blogs
           bookmarksHandle={bookmarksHandle}
           spenttimeHandle={spenttimeHandle}

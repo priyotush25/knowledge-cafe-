@@ -18,7 +18,7 @@ const Blog = ({ blog, bookmarksHandle, spenttimeHandle }) => {
         <img
           src={blog.coverImage}
           alt=""
-          className="w-full h-[450px] object-cover rounded-lg mb-8"
+          className="w-full h-52 md:h-[450px] object-cover rounded-lg mb-8"
         />
         {/* user section */}
         <div className="flex items-center justify-between">
@@ -29,7 +29,7 @@ const Blog = ({ blog, bookmarksHandle, spenttimeHandle }) => {
               className="h-14 w-14 object-cover rounded-full"
             />
             <div>
-              <p className="font-bold text-2xl">{blog.author.name}</p>
+              <p className="font-bold md:text-2xl">{blog.author.name}</p>
               <p className="text-base font-medium mt-2 text-gray-500">
                 {blog.postDate}
               </p>
@@ -44,7 +44,9 @@ const Blog = ({ blog, bookmarksHandle, spenttimeHandle }) => {
         </div>
 
         {/* title section */}
-        <h2 className="py-8 text-4xl font-bold leading-14">{blog.title}</h2>
+        <h2 className="py-8 text-xl md:text-4xl font-bold md:leading-14">
+          {blog.title}
+        </h2>
 
         {/* hash tag */}
         <div className="flex items-center gap-2 text-gray-500 font-normal">
